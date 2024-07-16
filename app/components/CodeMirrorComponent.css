@@ -1,0 +1,141 @@
+.CodeMirror {
+    font-size: 16px;
+    border-radius: 10px;
+    height:50vh;
+}
+
+/* 
+button{
+    border-radius: 10px;
+    font-size: 50px;
+    border: none;
+    margin: 10px;
+    font-family: "JetBrains Mono";
+}
+
+<!-- HTML !-->
+<button class="Compile" role="button">Button 23</button> */
+
+/* CSS */
+.Compile {
+    background-color: #007bff;
+    /* border: 1px solid #222222; */
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: JetBrains Mono, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+}
+
+.Compile:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+}
+
+.Compile:active {
+    background-color: #007bff;
+    border-color: rgb(0, 38, 254);
+    transform: scale(.96);
+}
+
+.Compile:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+.Copy {
+    background-color: #ffca28;
+    /* border: 1px solid #222222; */
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: JetBrains Mono, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+}
+
+.Copy:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+}
+
+.Copy:active {
+    background-color: #ffca28;
+    border-color: rgb(254, 195, 0);
+    transform: scale(.96);
+}
+
+.Copy:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+.Reset {
+    background-color: #dc3545;
+    /* border: 1px solid #222222; */
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: JetBrains Mono, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+}
+
+.Reset:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+}
+
+.Reset:active {
+    background-color: #dc3545;
+    border-color: rgb(254, 0, 0);
+    transform: scale(.96);
+}
+
+.Reset:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+}

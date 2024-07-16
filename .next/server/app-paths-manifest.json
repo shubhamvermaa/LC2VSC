@@ -1,0 +1,6 @@
+{
+  "/Contest/page": "app/Contest/page.js",
+  "/Template/page": "app/Template/page.js",
+  "/page": "app/page.js",
+  "/DynamicLayout/page": "app/DynamicLayout/page.js"
+}
