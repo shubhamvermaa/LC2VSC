@@ -1,4 +1,3 @@
-"use client"
 import {run2} from '../assets/main'
 import {run} from '../assets/main'
 import React, { useEffect, useRef } from 'react';
