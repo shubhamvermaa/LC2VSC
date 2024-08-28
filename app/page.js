@@ -1,95 +1,35 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+export default function RootRoute() {
+    const h1style = {fontSize: 80}
+    const maindiv = {paddingLeft:20, paddingRight:20}
+    const usage = {color: "red"};
+    return (
+        
+        <div style = {maindiv}>
+            <h1 style={h1style}>Hello World.</h1>
+            <div>
+                <h2>
+                    I, <a href = "https://github.com/shubhamvermaa">Shubham Verma</a>, maintain this website that parses the LeetCode problems, allowing us 
+                    to solve them on our favorite IDE's, with our template.
+                    <br></br>
+                    I implemented the functionality to parse any LeetCode Problem and updated the parsing algorithm of the LeetCode contest as per new tag format.
+                    <br></br>
+                    <br></br>
+                    <div><span style = {usage}>Usage: </span>Steps are given under respective section.</div>
+                    <br></br>
+                </h2>
+                <h1>Features:</h1>
+                <h3>
+                    • Supports new dynamic layout.
+                    <br></br>
+                    • Works best with old contest layout.
+                    <br></br>
+                    • Support for custom template.
+                </h3>
+                <div>
+                    <span style = {usage}>Disclaimer: </span>
+                    Problems involving LinkedList and TreeNodes are partially supported. Still you can parse the problem to get the skeleton.
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    )
 }
