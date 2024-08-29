@@ -15,8 +15,7 @@
   // Kludges for bugs and behavior differences that can't be feature
   // detected are enabled based on userAgent etc sniffing.
   var userAgent = navigator.userAgent;
-  // var platform = navigator.platform;
-  var platform = 'Windows NT';
+  var platform = navigator.platform;
 
   var gecko = /gecko\/\d/i.test(userAgent);
   var ie_upto10 = /MSIE \d/.test(userAgent);
